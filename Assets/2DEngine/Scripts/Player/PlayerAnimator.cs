@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[AddComponentMenu("2D Engine/Characters/Characters/Character Animator")]
-public class CharacterAnimator : MonoBehaviour
+[AddComponentMenu("2D Engine/Characters/Player/Player Animator")]
+public class PlayerAnimator : CharacterAnimator
 {
-    // The animator component for the character
+    // The animator component for the player
     [SerializeField] private Animator animator;
 
     // Determine which animations to run
