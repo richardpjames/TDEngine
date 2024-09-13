@@ -1,9 +1,7 @@
 # 2D Engine for Top Down Games
 
 This project is inspired by the Top Down Engine by More Mountains. It is a collection of modular scripts 
-which I have created to make it easier to get up and running quickly with a 2D top down game.
-
-The package current ships with the current components
+which I have created to make it easier to get up and running quickly with a 2D top down game in Unity.
 
 # Requirements
 
