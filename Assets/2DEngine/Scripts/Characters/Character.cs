@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[AddComponentMenu("2D Engine/Characters/Characters/Character Controller")]
+
 public class Character : MonoBehaviour
 {
     // Rigidbody is needed for movement etc.
@@ -24,4 +26,15 @@ public class Character : MonoBehaviour
             rb.gravityScale = 0f;
         }
     }
+    private void FixedUpdate()
+    {
+        // If there is a movement component
+        CharacterMovement characterMovement = GetComponent<CharacterMovement>();
+        if (characterMovement != null)
+        {
+            // Then use this to move the player rigidbody
+            characterMovement.Move(rb);
+        }
+    }
+
 }

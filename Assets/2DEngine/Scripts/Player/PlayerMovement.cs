@@ -3,10 +3,9 @@ using UnityEngine.InputSystem;
 
 [AddComponentMenu("2D Engine/Characters/Player/Player Movement")]
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : CharacterMovement
 {
-    [SerializeField] private float speed = 20f;
-    private Vector2 direction = Vector2.zero;
+    // Requires inputs from the player
     private PlayerInputs playerInputs;
 
     public void Awake()
@@ -20,19 +19,12 @@ public class PlayerMovement : MonoBehaviour
     {
         playerInputs.Enable();
         // Now subscribe to the correct events (as the input belongs to the object no need to unsubscribe)
-        playerInputs.Player.Move.performed += OnMove;
-        playerInputs.Player.Move.canceled += OnMove;
+        playerInputs.Player.Move.performed += GetDirectionFromInput;
+        playerInputs.Player.Move.canceled += GetDirectionFromInput;
 
     }
 
-    // To be called from the player during fixed update
-    public void MovePlayer(Rigidbody2D rb)
-    {
-        // Setting the velocity of the player will move them
-        rb.velocity = direction.normalized * speed;
-    }
-
-    private void OnMove(InputAction.CallbackContext context)
+    private void GetDirectionFromInput(InputAction.CallbackContext context)
     {
         // If the button is pressed then get the vector, on release set to zero
         if (context.performed)
@@ -44,12 +36,6 @@ public class PlayerMovement : MonoBehaviour
         {
             direction = Vector2.zero;
         }
-    }
-
-    // Get the input direction
-    public Vector2 GetInputDirection()
-    {
-        return direction;
     }
 
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class CharacterAnimator : MonoBehaviour
 {
     // The animator component for the character
-    [SerializeField] private Animator animator;
+    [SerializeField] protected Animator animator;
 
     // Determine which animations to run
     void Update()
