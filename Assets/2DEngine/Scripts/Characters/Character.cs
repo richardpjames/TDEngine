@@ -7,6 +7,7 @@ public class Character : MonoBehaviour
 {
     // Rigidbody is needed for movement etc.
     protected Rigidbody2D rb;
+    protected Vector2 inputDirection;
     protected void Start()
     {
         // Grab the rigidbody and set character settings
@@ -20,10 +21,7 @@ public class Character : MonoBehaviour
             // Automatically stop characters from rotating on the Z Axis
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             // For top down games we want to stop any gravity as well
-            if (GameManager.Instance.GetStyle() == GameManager.GameStyle.TopDown)
-            {
-                rb.gravityScale = 0f;
-            }
+            rb.gravityScale = 0f;
         }
     }
 }

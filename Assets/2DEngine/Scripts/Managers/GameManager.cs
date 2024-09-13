@@ -7,8 +7,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public enum GameStyle { TopDown, SideScrolling }
-    [SerializeField] private GameStyle style;
 
     private void Awake()
     {
@@ -22,10 +20,5 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
-    // Get the style of game being run
-    public GameStyle GetStyle()
-    {
-        return style;
     }
 }

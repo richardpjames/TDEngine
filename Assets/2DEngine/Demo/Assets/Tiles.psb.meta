@@ -101,8 +101,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 512
+      x: 0
+      y: 500
       width: 491
       height: 486
     spriteID: 5b5cb3a17a9d28a4eb24748429a8a3ec
@@ -113,7 +113,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 512}
+    uvTransform: {x: 0, y: 500}
     spritePosition: {x: 502, y: 11}
   - name: Floor
     originalName: 
@@ -122,8 +122,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
+      x: 0
+      y: 0
       width: 500
       height: 500
     spriteID: f6db693db92a106458613a21316a5b34
@@ -134,7 +134,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
@@ -158,7 +158,7 @@ ScriptedImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
@@ -200,7 +200,7 @@ ScriptedImporter:
   skeletonAssetReferenceID: 
   pipeline: {instanceID: 0}
   pipelineVersion: 
-  padding: 4
+  padding: 0
   spriteSizeExpand: 0
   spriteCategoryList:
     categories: []
@@ -214,7 +214,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 5b5cb3a17a9d28a4eb24748429a8a3ec
     layerID: 4
-    mosaicPosition: {x: 4, y: 512}
+    mosaicPosition: {x: 0, y: 500}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -224,14 +224,14 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: f6db693db92a106458613a21316a5b34
     layerID: 3
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 1
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638618290098983642
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 

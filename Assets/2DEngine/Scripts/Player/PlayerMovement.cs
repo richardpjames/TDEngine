@@ -40,10 +40,16 @@ public class PlayerMovement : MonoBehaviour
             direction = context.ReadValue<Vector2>();
         }
         // When the button is released
-        else if(context.canceled) 
+        else if (context.canceled)
         {
             direction = Vector2.zero;
         }
+    }
+
+    // Get the input direction
+    public Vector2 GetInputDirection()
+    {
+        return direction;
     }
 
 }
