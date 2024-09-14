@@ -5,6 +5,6 @@ using UnityEngine;
 public class Effect : MonoBehaviour
 {
     // Must be overridden in other effects
-    public virtual void Play() { }
+    public virtual void Play(Vector3 position) { }
 
 }

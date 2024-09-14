@@ -7,6 +7,8 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
+    // For special effects on spawning
+    [SerializeField] private EffectsContainer spawnEffects;
     // Rigidbody is needed for movement etc.
     protected Rigidbody2D rb;
     protected Vector2 inputDirection;
@@ -24,6 +26,11 @@ public class Character : MonoBehaviour
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             // For top down games we want to stop any gravity as well
             rb.gravityScale = 0f;
+        }
+        // If there are any effects specified for spawning
+        if (spawnEffects != null)
+        {
+            spawnEffects.PlayAll(transform.position);
         }
     }
     private void FixedUpdate()

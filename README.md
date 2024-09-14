@@ -32,9 +32,15 @@ Determines the state of the character and sets a number of booleans within the s
 Allows the character to hold a weapon, and determines the position at which the weapon is held. If using a
 player character controller allows the state of the weapon to be updated from player input.
 
-# Weapon
+# Weapons
+
+## Weapon
 
 Gives an object the ability to be equipped as a weapon, and to store the state of whether that weapon is firing.
+
+## Projectile
+
+Gives an object the ability to move automatically through the air and detect collision (triggering a reduction in health where required).
 
 # Utilities
 
@@ -53,6 +59,10 @@ Allows grouping of multiple effects to be played at the same time from a single 
 ## Screen Shake
 
 Creates a screen shake effect using the Cinemachine 2D camera.
+
+## Particles
+
+Spawns a particle effect at a location determined by the object.
 
 # Demo
 

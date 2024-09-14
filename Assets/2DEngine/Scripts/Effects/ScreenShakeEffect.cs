@@ -13,7 +13,7 @@ public class ScreenShakeEffect : Effect
     private bool shaking = false;
 
     // Run the effect
-    public override void Play()
+    public override void Play(Vector3 position)
     {
         // Prevent multiple instances of the camera shaking
         if (!shaking)
