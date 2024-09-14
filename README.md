@@ -8,9 +8,9 @@ which I have created to make it easier to get up and running quickly with a 2D t
 For this package to work correctly, both Cinemachine and the new Unity Input System must be present.
 
 # Scripts
-## Player and Character Controller
+## Character Controller
 
-Assign the player controller to playable characters and the character controller to NPCs etc. This provides
+Assign the character controller to player controlled characters, as well as NPCs etc. This provides
 base functionality for any character in the game and sets sensible defaults for the top down view (such as
 disabling rotation and gravity in the rigidbody). This component is required on an object for all other
 character and player components to work correctly.
@@ -18,11 +18,12 @@ character and player components to work correctly.
 ## Player Movement
 
 Takes movement instructions from WASD, arrow keys or controller input and moves the character a set speed
-which is taken as an input to the component.
+which is taken as an input to the component. Assign this to player controlled characters (this is the key
+difference between the player character and enemies/NPCs.)
 
-## Player and Character Animator
+## Character Animator
 
-Determines the state of the player or character and sets a number of booleans within the specified animator:
+Determines the state of the character and sets a number of booleans within the specified animator:
  - Running - set to true when the player/character is moving
  - Idle - set to true when the player/character is still
 	

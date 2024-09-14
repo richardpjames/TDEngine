@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[AddComponentMenu("2D Engine/Characters/Characters/Character Movement")]
+[AddComponentMenu("2D Engine/Characters/Character Movement")]
 
 public class CharacterMovement : MonoBehaviour
 {

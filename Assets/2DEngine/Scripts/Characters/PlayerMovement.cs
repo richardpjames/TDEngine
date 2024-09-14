@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[AddComponentMenu("2D Engine/Characters/Player/Player Movement")]
+[AddComponentMenu("2D Engine/Characters/Player Movement")]
 
 public class PlayerMovement : CharacterMovement
 {

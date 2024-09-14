@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[AddComponentMenu("2D Engine/Characters/Characters/Character Animator")]
+[AddComponentMenu("2D Engine/Characters/Character Animator")]
 public class CharacterAnimator : MonoBehaviour
 {
     // The animator component for the character
