@@ -64,6 +64,10 @@ Creates a screen shake effect using the Cinemachine 2D camera.
 
 Spawns a particle effect at a location determined by the object.
 
+# NavMesh
+
+This project uses NavMesh Plus by h8man which is available here: https://github.com/h8man/NavMeshPlus
+
 # Demo
 
 A demo scene is also included which shows all of the features and components in the package.
