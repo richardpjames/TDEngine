@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3919828207140909975}
   - component: {fileID: 7725074035919682955}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Right Arm '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5325954815383178080}
   - component: {fileID: 7777406627137828370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Left Leg '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724692424103586281}
   - component: {fileID: 1006693121298865133}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6199755931786656979}
   - component: {fileID: 8083093274418812661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028267831883390494}
   - component: {fileID: 3877043380582758557}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 15910148930007500}
   - component: {fileID: 31118120030032059}
   - component: {fileID: 8529977905363731264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -608,7 +608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3268601198644411565}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5727485311356084733}
   - component: {fileID: 1061524507370468282}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Left Arm '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -727,7 +727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7295885027759954087}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Weapon Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3174319509045063691}
   - component: {fileID: 5549190854891382068}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Right Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
