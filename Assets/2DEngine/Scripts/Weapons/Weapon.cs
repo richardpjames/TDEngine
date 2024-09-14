@@ -9,6 +9,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected float cooldown;
     [SerializeField] protected bool overrideDamage;
     [SerializeField] protected int damage;
+    protected LayerMask excludeLayers;
 
     protected bool firing = false;
     protected float nextFireTime;
@@ -16,6 +17,12 @@ public class Weapon : MonoBehaviour
     public virtual void SetFiring(bool newFiringValue)
     {
         firing = newFiringValue;
+    }
+
+    // Set any layers to be ignored by the weapon
+    public virtual void SetExcludeLayers(LayerMask mask)
+    {
+        excludeLayers = mask;
     }
 
 }

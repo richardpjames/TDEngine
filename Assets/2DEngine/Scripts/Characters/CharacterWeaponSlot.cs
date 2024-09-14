@@ -8,6 +8,7 @@ public class CharacterWeaponSlot : MonoBehaviour
 {
     [SerializeField] private Weapon defaultWeapon;
     [SerializeField] private Transform weaponPosition;
+    [SerializeField] private LayerMask excludeLayers;
     private Weapon equippedWeapon;
     // Start is called before the first frame update
     private void Start()
@@ -28,6 +29,7 @@ public class CharacterWeaponSlot : MonoBehaviour
         {
             // Then set whether that weapon is firing
             equippedWeapon.SetFiring(newFiringValue);
+            equippedWeapon.SetExcludeLayers(excludeLayers);
         }
     }
 

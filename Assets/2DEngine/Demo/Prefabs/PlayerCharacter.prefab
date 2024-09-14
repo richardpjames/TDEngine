@@ -599,6 +599,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultWeapon: {fileID: 3686880320828620683, guid: 3a9aa0432d42cd540a428f8da84986d1, type: 3}
   weaponPosition: {fileID: 7295885027759954087}
+  excludeLayers:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &4437310811024057550
 GameObject:
   m_ObjectHideFlags: 0

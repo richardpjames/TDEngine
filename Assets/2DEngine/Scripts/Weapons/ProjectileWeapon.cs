@@ -20,6 +20,8 @@ public class ProjectileWeapon : Weapon
             {
                 spawnedProjectile.SetDamage(damage);
             }
+            // Pass through the layers not affected by the weapon
+            spawnedProjectile.SetExcludeLayers(excludeLayers);
             // Update the cooldown time
             nextFireTime = Time.time + cooldown;
         }

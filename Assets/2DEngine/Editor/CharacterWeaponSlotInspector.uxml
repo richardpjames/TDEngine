@@ -3,4 +3,5 @@
     <ui:Label tabindex="-1" text="This component allows a character to hold a weapon. When the default weapon is set, the character will spawn this when they are created. The weapon position allows the weapon to be a child of another object, allowing it to be placed correctly and follow other sprites." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
     <uie:PropertyField binding-path="defaultWeapon" label="Default Weapon" />
     <uie:PropertyField binding-path="weaponPosition" label="Weapon Position" />
+    <uie:PropertyField binding-path="excludeLayers" label="Excluded Layers" />
 </ui:UXML>

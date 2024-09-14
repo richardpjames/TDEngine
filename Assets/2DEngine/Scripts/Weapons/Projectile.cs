@@ -10,12 +10,15 @@ public class Projectile : MonoBehaviour
     [SerializeField] private int damage;
     [SerializeField] private EffectsContainer onCollisionEffects;
     private Rigidbody2D rb;
+    private string ignoreTag;
 
     // Start is called before the first frame update
     void Start()
     {
         // Get the rigidbody
         rb = GetComponent<Rigidbody2D>();
+        // Make sure no gravity applied
+        rb.gravityScale = 0f;
         // Move the projectile based on our firing direction
         Transform fireDirection = transform;
         fireDirection.Rotate(0, 0, -90);
@@ -29,6 +32,18 @@ public class Projectile : MonoBehaviour
     public void SetDamage(int newDamage)
     { 
         damage = newDamage;
+    }
+    
+    // Ignore items with the supplied LayerMask
+    public void SetExcludeLayers(LayerMask mask)
+    {
+        // Get the collider for the projectile
+        Collider2D collider = GetComponent<Collider2D>();
+        if(collider != null)
+        {
+            // Set the excluded layers as per the parameter
+            collider.excludeLayers = mask;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
