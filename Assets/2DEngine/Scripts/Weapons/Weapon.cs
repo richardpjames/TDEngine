@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 
-[AddComponentMenu("2D Engine/Weapons/Weapon")]
-
 public class Weapon : MonoBehaviour
 {
-    private bool firing = false;
+    [SerializeField] protected float cooldown;
+    protected bool firing = false;
+    protected float nextFireTime;
     // Begin and stop firing (allows for holding controls)
     public virtual void SetFiring(bool newFiringValue)
     {

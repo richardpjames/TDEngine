@@ -16,7 +16,7 @@ public class CharacterWeaponSlot : MonoBehaviour
         if(defaultWeapon != null && weaponPosition)
         {
             // Take the default weapon and make it a child of the weapon position
-            Instantiate(defaultWeapon, weaponPosition);
+            equippedWeapon = Instantiate(defaultWeapon, weaponPosition);
         }
     }
 
@@ -24,7 +24,7 @@ public class CharacterWeaponSlot : MonoBehaviour
     public void SetFiring(bool newFiringValue)
     {
         // Check that a weapon is equipped
-        if(equippedWeapon != null)
+        if (equippedWeapon != null)
         {
             // Then set whether that weapon is firing
             equippedWeapon.SetFiring(newFiringValue);

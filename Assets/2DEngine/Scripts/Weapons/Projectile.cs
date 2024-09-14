@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.VFX;
 
+[AddComponentMenu("2D Engine/Weapons/Projectile")]
+
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed;
@@ -28,13 +30,17 @@ public class Projectile : MonoBehaviour
         // Get any objects which can take damage
         CharacterHealth health = collision.gameObject.GetComponent<CharacterHealth>();
         // If one was found
-        if(health != null )
+        if (health != null)
         {
             // Apply damage to the character
             health.TakeDamage(damage);
         }
-        // Trigger effects
-        onCollisionEffects.PlayAll(transform.position);
+        // If effects are specified
+        if (onCollisionEffects != null)
+        {
+            // Trigger effects
+            onCollisionEffects.PlayAll(transform.position);
+        }
         // Finally, desroy the projectile itself
         Destroy(gameObject);
     }
