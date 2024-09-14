@@ -14,7 +14,12 @@ public class ProjectileWeapon : Weapon
         if(firing && Time.time >= nextFireTime)
         {
             // Instantiate the projectile, which will deal with its own movement
-            Instantiate(projectile, firePoint.position, transform.rotation * Quaternion.Euler(new Vector3(0,0,90)));
+            Projectile spawnedProjectile = Instantiate(projectile, firePoint.position, transform.rotation * Quaternion.Euler(new Vector3(0,0,90)));
+            // If the weapon is configured to override damage
+            if(overrideDamage)
+            {
+                spawnedProjectile.SetDamage(damage);
+            }
             // Update the cooldown time
             nextFireTime = Time.time + cooldown;
         }

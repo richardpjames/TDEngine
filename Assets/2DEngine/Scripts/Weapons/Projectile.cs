@@ -25,6 +25,12 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
+    // Allow other items (such as weapons) to override damage
+    public void SetDamage(int newDamage)
+    { 
+        damage = newDamage;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Get any objects which can take damage

@@ -3,8 +3,11 @@ using UnityEngine.InputSystem;
 
 [AddComponentMenu("2D Engine/Characters/Player Movement")]
 
-public class PlayerMovement : CharacterMovement
+public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] protected float speed = 20f;
+    private Vector2 direction;
+
     // Requires inputs from the player
     private PlayerInputs playerInputs;
 
@@ -39,7 +42,22 @@ public class PlayerMovement : CharacterMovement
         }
     }
 
-    // 
+    // Get the direction that has been input
+    public Vector2 GetInputDirection()
+    {
+        return direction;
+    }
+
+    // Moves the character based on the player input
+    private void FixedUpdate()
+    {
+        // Move using the Rigidbody
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        // Setting velocity usese built in physics
+        rb.velocity = direction * speed;
+    }
+
+    // Getting input for firing the weapon
     private void Fire(InputAction.CallbackContext context)
     {
         // Check whether a weapon slot exists on the character

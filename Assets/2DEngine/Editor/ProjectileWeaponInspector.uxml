@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The projectile weapon works by spawning projectiles from a specific point. They are fired in the direction that the weapon is rotated. The weapon can override the damage dealt by projectiles if required." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="cooldown" label="Cool Down Time (Seconds)" />
+    <uie:PropertyField binding-path="overrideDamage" label="Override Projectile Damage?" />
+    <uie:PropertyField binding-path="damage" label="Damage" />
+    <uie:PropertyField binding-path="projectile" label="Projectile" />
+    <uie:PropertyField binding-path="firePoint" label="Fire Point" />
+</ui:UXML>

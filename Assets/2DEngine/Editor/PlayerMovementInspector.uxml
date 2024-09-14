@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The player movement component allows the character to be moved based on input from the player. It also handles other input events and passes them to the appropriate components. This is required for any playable character.&#10;&#10;This should not be used on non-player characters. Use the Character Movement component instead, which can be used with AI." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="speed" label="Speed" />
+</ui:UXML>

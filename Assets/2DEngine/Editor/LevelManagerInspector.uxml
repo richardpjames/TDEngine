@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The level manager is responsible for loading and maintaining the levels within the game. This includes the transitions between levels and spawning the player into the correct point within levels." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="amplitude" label="Amplitude" />
+    <uie:PropertyField binding-path="playerCharacter" label="Player" />
+    <uie:PropertyField binding-path="spawnPoint" label="Default Spawn Point" />
+</ui:UXML>

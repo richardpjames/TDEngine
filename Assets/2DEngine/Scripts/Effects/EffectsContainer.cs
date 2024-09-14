@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[AddComponentMenu("2D Engine/Effects/EffectsContainer")]
+[AddComponentMenu("2D Engine/Effects/Effects Container")]
 
 public class EffectsContainer : MonoBehaviour
 {

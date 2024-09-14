@@ -33,15 +33,4 @@ public class Character : MonoBehaviour
             spawnEffects.PlayAll(transform.position);
         }
     }
-    private void FixedUpdate()
-    {
-        // If there is a movement component
-        CharacterMovement characterMovement = GetComponent<CharacterMovement>();
-        if (characterMovement != null)
-        {
-            // Then use this to move the player rigidbody
-            characterMovement.Move(rb);
-        }
-    }
-
 }

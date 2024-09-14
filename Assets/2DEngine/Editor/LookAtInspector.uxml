@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The Look At component will automatically rotate the game object to either look towards the mouse or the player. This component is reliant on the player having the &quot;Player&quot; tag assigned.&#10;&#10;Additional rotation can be used when the rotation needs to be adjusted due to the direction of a sprite (for example)." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="lookType" label="Player or Mouse" />
+    <uie:PropertyField binding-path="additionalRotation" label="Additional Rotation" />
+</ui:UXML>

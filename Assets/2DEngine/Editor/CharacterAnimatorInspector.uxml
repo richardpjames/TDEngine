@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The character animator component works with the other character and player components to determine the state of the character and then set appropriate flags for the provided animator. Currently available flags are:&#10;&#10;- Idle (boolean) - set to true when the Idle animation should play.&#10;- Running (boolean) - set to true when the Running animation should play." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="animator" label="Animator" />
+</ui:UXML>

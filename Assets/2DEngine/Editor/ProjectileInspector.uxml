@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="Projectiles fired from weapons will move automatically until they hit another object, applying damage if appropriate. Projectiles have a speed and lifetime along with a damage property. They can also trigger effects when they hit an object." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="speed" label="Speed" />
+    <uie:PropertyField binding-path="lifetime" label="Lifetime" />
+    <uie:PropertyField binding-path="damage" label="Damage" />
+    <uie:PropertyField binding-path="onCollisionEffects" label="On Collision Effects" />
+</ui:UXML>
