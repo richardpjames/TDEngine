@@ -49,12 +49,12 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Get any objects which can take damage
-        CharacterHealth health = collision.gameObject.GetComponent<CharacterHealth>();
+        IDamageable target = collision.gameObject.GetComponent<IDamageable>();
         // If one was found
-        if (health != null)
+        if (target != null)
         {
             // Apply damage to the character
-            health.TakeDamage(damage);
+            target.TakeDamage(damage);
         }
         // If effects are specified
         if (onCollisionEffects != null)

@@ -301,9 +301,11 @@ GameObject:
   - component: {fileID: 775826076}
   - component: {fileID: 775826075}
   - component: {fileID: 775826074}
-  - component: {fileID: 775826072}
   - component: {fileID: 775826080}
   - component: {fileID: 775826079}
+  - component: {fileID: 775826072}
+  - component: {fileID: 775826082}
+  - component: {fileID: 775826081}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -323,6 +325,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6169ba877da71504cbc9c4c50581db52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  evaluationCooldown: 1
+  configurations:
+  - conditions:
+    - {fileID: 775826081}
+    actions:
+    - {fileID: 775826082}
 --- !u!114 &775826074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +472,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   agent: {fileID: 775826075}
+--- !u!114 &775826081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775826071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eef57edff20b8741b62bf771bbf5cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 6.4
+--- !u!114 &775826082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775826071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cddc3e5cd0c07ed4f8cc654036cea638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 3.15
 --- !u!1 &1209767411
 GameObject:
   m_ObjectHideFlags: 0

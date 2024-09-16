@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The character AI works by setting a number of conditions and actions. Where all of the specific conditions are met, the action is performed. Conditions are evaluated sequentially and the first action where all conditions are met is performed." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="evaluationCooldown" label="Evaluation Cooldown Time" />
+    <uie:PropertyField binding-path="configurations" label="Condition and Action Pairs" />
+</ui:UXML>

@@ -5,7 +5,7 @@ using UnityEngine;
 
 [AddComponentMenu("2D Engine/Characters/Character Health")]
 
-public class CharacterHealth : MonoBehaviour
+public class CharacterHealth : MonoBehaviour, IDamageable
 {
     // The characters maximum health and whether their death ends the game
     [SerializeField] protected int maxHealth;
