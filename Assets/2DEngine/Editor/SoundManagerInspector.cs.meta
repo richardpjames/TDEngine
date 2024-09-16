@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - m_InspectorXML: {fileID: 9197481963319205126, guid: 1a8d8cd512bff9b4f8eb49ba2cd27537, type: 3}
   executionOrder: 0
-  icon: {instanceID: 0}
+  icon: {fileID: 2800000, guid: 2e96e3e239b9cbb43884a354fcf87f5d, type: 3}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

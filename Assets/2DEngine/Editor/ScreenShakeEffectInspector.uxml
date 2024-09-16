@@ -4,4 +4,5 @@
     <uie:PropertyField binding-path="amplitude" label="Amplitude" />
     <uie:PropertyField binding-path="frequency" label="Frequency" />
     <uie:PropertyField binding-path="duration" label="Duration" />
+    <uie:PropertyField binding-path="priority" label="Priority" />
 </ui:UXML>
