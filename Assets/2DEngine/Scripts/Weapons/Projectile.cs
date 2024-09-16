@@ -60,7 +60,7 @@ public class Projectile : MonoBehaviour
         if (onCollisionEffects != null)
         {
             // Trigger effects
-            onCollisionEffects.PlayAll(transform.position);
+            Instantiate(onCollisionEffects, transform.position, Quaternion.identity);
         }
         // Finally, desroy the projectile itself
         Destroy(gameObject);

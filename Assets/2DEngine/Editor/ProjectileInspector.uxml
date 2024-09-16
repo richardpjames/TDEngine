@@ -4,5 +4,5 @@
     <uie:PropertyField binding-path="speed" label="Speed" />
     <uie:PropertyField binding-path="lifetime" label="Lifetime" />
     <uie:PropertyField binding-path="damage" label="Damage" />
-    <uie:PropertyField binding-path="onCollisionEffects" label="On Collision Effects" />
+    <uie:PropertyField binding-path="onCollisionEffects" label="On Collision Effects (As Prefab)" />
 </ui:UXML>

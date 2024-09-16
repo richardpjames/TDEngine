@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The sound manager works in conjunction with an audio source and acts as a single route for all sounds to be played." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+</ui:UXML>

@@ -13,7 +13,7 @@ public class ScreenShakeEffect : Effect
     private bool shaking = false;
 
     // Run the effect
-    public override void Play(Vector3 position)
+    public override void Play()
     {
         // Prevent multiple instances of the camera shaking
         if (!shaking)
@@ -47,6 +47,8 @@ public class ScreenShakeEffect : Effect
                     // Reset back to zero to steady the camera
                     noise.m_AmplitudeGain = 0;
                     noise.m_FrequencyGain = 0;
+                    // Reset the camera rotation
+                    Camera.main.transform.rotation = Quaternion.identity;
                 }
                 else
                 {

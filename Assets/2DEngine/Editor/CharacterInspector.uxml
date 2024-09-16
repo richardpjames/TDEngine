@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
     <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
     <ui:Label tabindex="-1" text="This is the base component for any characters (either playable, or NPCs). It requires the character to have a Rigidbody2D in place and allows for the creation of effects on the spawn of the character (using an Effects Container)." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
-    <uie:PropertyField binding-path="spawnEffects" label="Spawn Effects" />
+    <uie:PropertyField binding-path="spawnEffects" label="Spawn Effects (As Prefab)" />
 </ui:UXML>

@@ -54,7 +54,8 @@ public class CharacterHealth : MonoBehaviour, IDamageable
         // Check that the application is not closing and that effects are specified
         if(!isQuitting && deathEffects != null)
         {
-            deathEffects.PlayAll(transform.position);
+            // Instantiate the effects prefab
+            Instantiate(deathEffects, transform.position, Quaternion.identity);
         }
     }
 

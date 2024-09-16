@@ -30,7 +30,7 @@ public class Character : MonoBehaviour
         // If there are any effects specified for spawning
         if (spawnEffects != null)
         {
-            spawnEffects.PlayAll(transform.position);
+            Instantiate(spawnEffects, transform.position, Quaternion.identity);
         }
     }
 

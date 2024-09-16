@@ -94,18 +94,18 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Weapon
+  - name: Layer 3
     originalName: 
-    pivot: {x: 0.81188446, y: 0.09757521}
+    pivot: {x: 0.664739, y: 0.29845303}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 103
-      height: 209
-    spriteID: 0e95f2e7705f448409aa59a0fc8813ed
+      width: 78
+      height: 213
+    spriteID: 591e25ecbefb5fb42b3fcc024c59fbb8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -114,7 +114,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 12, y: 17}
+    spritePosition: {x: 4, y: 4}
   characterData:
     bones: []
     parts: []
@@ -151,12 +151,12 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Weapon
-    spriteName: Weapon
+  - name: Layer 3
+    spriteName: Layer 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 0e95f2e7705f448409aa59a0fc8813ed
-    layerID: 19
+    spriteID: 591e25ecbefb5fb42b3fcc024c59fbb8
+    layerID: 29
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1

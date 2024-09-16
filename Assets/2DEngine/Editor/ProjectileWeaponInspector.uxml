@@ -6,4 +6,5 @@
     <uie:PropertyField binding-path="damage" label="Damage" />
     <uie:PropertyField binding-path="projectile" label="Projectile" />
     <uie:PropertyField binding-path="firePoint" label="Fire Point" />
+    <uie:PropertyField binding-path="fireEffects" label="Fire Effects (As Prefab)" />
 </ui:UXML>
