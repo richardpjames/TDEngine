@@ -1,0 +1,17 @@
+{
+    "name": "TDEngineEditors",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7f9736d0734713e49ad33dfb957a5723",
+        "GUID:44dd66c9d1fe1da4aac48573c23578fa"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
