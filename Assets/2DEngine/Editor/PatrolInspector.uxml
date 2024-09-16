@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="Allows the character to patrol between a number of points defined in the patrol route (a set of Tranform components). When the player is within the defined distance of a point they will move to the next (looping when reaching the end of the route)." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="distance" label="Distance" />
+    <uie:PropertyField binding-path="patrolRoute" label="Patrol Route" />
+</ui:UXML>
