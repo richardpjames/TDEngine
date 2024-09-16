@@ -24,6 +24,8 @@ public class CharacterMovement : MonoBehaviour
     {
         // Set the speed of the agent and move to the destination supplied
         agent.speed = speed;
+        // Set a high acceleration so that characters come straight up to speed
+        agent.acceleration = float.MaxValue;
         agent.SetDestination(destination);
     }
 
