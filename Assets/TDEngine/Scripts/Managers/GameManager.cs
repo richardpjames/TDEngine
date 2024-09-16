@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Managers
+namespace richardpjames.com.TDEngine.Managers
 {
     [AddComponentMenu("2D Engine/Managers/Game Manager")]
 

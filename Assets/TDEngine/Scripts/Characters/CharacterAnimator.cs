@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Characters
+namespace richardpjames.com.TDEngine.Characters
 {
     [AddComponentMenu("2D Engine/Characters/Character Animator")]
     public class CharacterAnimator : MonoBehaviour

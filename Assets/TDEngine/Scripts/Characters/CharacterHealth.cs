@@ -1,9 +1,9 @@
-using Richardpjames.TDEngine.Effects;
-using Richardpjames.TDEngine.Managers;
+using richardpjames.com.TDEngine.Effects;
+using richardpjames.com.TDEngine.Managers;
 using System;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Characters
+namespace richardpjames.com.TDEngine.Characters
 {
     [AddComponentMenu("2D Engine/Characters/Character Health")]
 

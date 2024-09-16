@@ -1,8 +1,8 @@
 
-using Richardpjames.TDEngine.Managers;
+using richardpjames.com.TDEngine.Managers;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Effects
+namespace richardpjames.com.TDEngine.Effects
 {
     [AddComponentMenu("2D Engine/Effects/Effects/Screen Shake")]
     public class ScreenShakeEffect : Effect

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Richardpjames.TDEngine.Characters
+namespace richardpjames.com.TDEngine.Characters
 {
     [AddComponentMenu("2D Engine/Characters/Player Movement")]
 

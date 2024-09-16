@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Characters.AI
+namespace richardpjames.com.TDEngine.Characters.AI
 {
     [AddComponentMenu("2D Engine/Characters/AI Actions/Stop Firing")]
 

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Effects
+namespace richardpjames.com.TDEngine.Effects
 {
     [AddComponentMenu("2D Engine/Effects/Effects Container")]
 

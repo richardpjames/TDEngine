@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-namespace Richardpjames.TDEngine.Characters.AI
+namespace richardpjames.com.TDEngine.Characters.AI
 {
     [AddComponentMenu("")]
 

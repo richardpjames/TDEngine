@@ -1,8 +1,8 @@
-using Richardpjames.TDEngine.Characters.AI;
+using richardpjames.com.TDEngine.Characters.AI;
 using System;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Characters
+namespace richardpjames.com.TDEngine.Characters
 {
     [AddComponentMenu("2D Engine/Characters/Character AI")]
 

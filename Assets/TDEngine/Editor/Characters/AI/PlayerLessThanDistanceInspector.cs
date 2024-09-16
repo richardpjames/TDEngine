@@ -1,4 +1,4 @@
-using Richardpjames.TDEngine.Characters.AI;
+using richardpjames.com.TDEngine.Characters.AI;
 using UnityEditor;
 
 [CustomEditor(typeof(PlayerLessThanDistance))]

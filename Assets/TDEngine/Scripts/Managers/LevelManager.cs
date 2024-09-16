@@ -1,8 +1,8 @@
-using Richardpjames.TDEngine.Characters;
+using richardpjames.com.TDEngine.Characters;
 using Cinemachine;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Managers
+namespace richardpjames.com.TDEngine.Managers
 {
     [AddComponentMenu("2D Engine/Managers/Level Manager")]
 
@@ -10,7 +10,7 @@ namespace Richardpjames.TDEngine.Managers
     {
         public static LevelManager Instance;
         [SerializeField] private Character playerCharacter;
-        [SerializeField] Transform spawnPoint;
+        [SerializeField] private Transform spawnPoint;
         private Character player;
 
         private void Awake()

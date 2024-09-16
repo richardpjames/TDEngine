@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Effects
+namespace richardpjames.com.TDEngine.Effects
 {
     [AddComponentMenu("2D Engine/Effects/Effects/Particles")]
     public class ParticleEffect : Effect

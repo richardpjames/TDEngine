@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Managers
+namespace richardpjames.com.TDEngine.Managers
 {
     [AddComponentMenu("2D Engine/Managers/Sound Manager")]
 

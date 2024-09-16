@@ -1,7 +1,7 @@
-using Richardpjames.TDEngine.Characters;
+using richardpjames.com.TDEngine.Characters;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Utilities
+namespace richardpjames.com.TDEngine.Utilities
 {
     [AddComponentMenu("2D Engine/Utilities/Look At")]
 

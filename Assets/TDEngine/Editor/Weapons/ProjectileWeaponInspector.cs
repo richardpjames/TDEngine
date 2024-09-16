@@ -1,4 +1,4 @@
-using Richardpjames.TDEngine.Weapons;
+using richardpjames.com.TDEngine.Weapons;
 using UnityEditor;
 
 [CustomEditor(typeof(ProjectileWeapon))]

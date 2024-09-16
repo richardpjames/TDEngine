@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Characters.AI
+namespace richardpjames.com.TDEngine.Characters.AI
 {
     [AddComponentMenu("")]
 

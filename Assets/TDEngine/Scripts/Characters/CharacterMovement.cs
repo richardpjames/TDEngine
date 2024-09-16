@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace Richardpjames.TDEngine.Characters
+namespace richardpjames.com.TDEngine.Characters
 {
     [AddComponentMenu("2D Engine/Characters/Character Movement")]
 

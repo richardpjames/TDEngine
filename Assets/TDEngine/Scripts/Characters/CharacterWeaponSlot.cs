@@ -1,7 +1,7 @@
-using Richardpjames.TDEngine.Weapons;
+using richardpjames.com.TDEngine.Weapons;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Characters
+namespace richardpjames.com.TDEngine.Characters
 {
     [AddComponentMenu("2D Engine/Characters/Character Weapon Slot")]
 

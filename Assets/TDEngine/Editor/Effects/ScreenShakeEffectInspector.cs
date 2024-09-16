@@ -1,4 +1,4 @@
-using Richardpjames.TDEngine.Effects;
+using richardpjames.com.TDEngine.Effects;
 using UnityEditor;
 
 [CustomEditor(typeof(ScreenShakeEffect))]

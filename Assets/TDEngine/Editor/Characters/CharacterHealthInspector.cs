@@ -1,4 +1,4 @@
-using Richardpjames.TDEngine.Characters;
+using richardpjames.com.TDEngine.Characters;
 using UnityEditor;
 
 [CustomEditor(typeof(CharacterHealth))]

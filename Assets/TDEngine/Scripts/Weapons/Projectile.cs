@@ -1,7 +1,7 @@
-using Richardpjames.TDEngine.Effects;
+using richardpjames.com.TDEngine.Effects;
 using UnityEngine;
 
-namespace Richardpjames.TDEngine.Weapons
+namespace richardpjames.com.TDEngine.Weapons
 {
     [AddComponentMenu("2D Engine/Weapons/Projectile")]
 
