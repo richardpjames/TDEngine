@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/2DEngine/Editor/Styles.uss?fileID=7433441132597879392&amp;guid=bbb7ad26ceec285418d78248697431c1&amp;type=3#Styles" />
+    <ui:Label tabindex="-1" text="The start firing action will allow any character with a weapon slot and equipped weapon to fire or slash their weapon repeatedly based on weapon cooldown." parse-escape-sequences="true" display-tooltip-when-elided="true" class="instructions" style="white-space: normal;" />
+    <uie:PropertyField binding-path="amplitude" label="Amplitude" />
+    <uie:PropertyField binding-path="frequency" label="Frequency" />
+    <uie:PropertyField binding-path="duration" label="Duration" />
+</ui:UXML>

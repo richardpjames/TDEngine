@@ -30,7 +30,7 @@ public class LookAt : MonoBehaviour
     private float GetAngleToPlayer()
     {
         // Find the player in the scene and get the character component
-        Character player = GameObject.FindGameObjectWithTag("Player").GetComponent<Character>();
+        Character player = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Character>();
         if (player == null)
         {
             return 0;

@@ -33,4 +33,9 @@ public class Character : MonoBehaviour
             spawnEffects.PlayAll(transform.position);
         }
     }
+
+    public void Remove()
+    {
+        Destroy(gameObject);
+    }
 }

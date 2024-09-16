@@ -34,6 +34,8 @@ public class CharacterAI : MonoBehaviour
                 if (allTrue)
                 {
                     activeActions = configuration.actions;
+                    // Break out of the loop
+                    break;
                 }
             }
             // Reset the cooldown timer

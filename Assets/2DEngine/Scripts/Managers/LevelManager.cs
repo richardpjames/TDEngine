@@ -38,10 +38,11 @@ public class LevelManager : MonoBehaviour
 
     public void ReSpawn()
     {
+        DetachCamera();
         // Remove the existing player if present
         if (player != null)
         {
-            Destroy(player);
+            player.Remove();
         }
         // Create a new player
         player = Instantiate(playerCharacter, spawnPoint.position, Quaternion.identity);

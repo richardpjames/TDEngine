@@ -21,11 +21,20 @@ public class PlayerMovement : MonoBehaviour
     private void OnEnable()
     {
         playerInputs.Enable();
-        // Now subscribe to the correct events (as the input belongs to the object no need to unsubscribe)
+        // Now subscribe to the correct events 
         playerInputs.Player.Move.performed += GetDirectionFromInput;
         playerInputs.Player.Move.canceled += GetDirectionFromInput;
         playerInputs.Player.Fire.performed += Fire;
         playerInputs.Player.Fire.canceled += Fire;
+    }
+
+    // Unsubscribe from the input actions when destroyed
+    private void OnDestroy()
+    {
+        playerInputs.Player.Move.performed -= GetDirectionFromInput;
+        playerInputs.Player.Move.canceled -= GetDirectionFromInput;
+        playerInputs.Player.Fire.performed -= Fire;
+        playerInputs.Player.Fire.canceled -= Fire;
     }
 
     private void GetDirectionFromInput(InputAction.CallbackContext context)

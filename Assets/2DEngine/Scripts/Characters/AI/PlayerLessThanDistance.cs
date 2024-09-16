@@ -10,7 +10,7 @@ public class PlayerLessThanDistance : CharacterAICondition, ICondition
     public override bool Evaluate()
     {
         // Find the player in the scene
-        Character player = GameObject.FindGameObjectWithTag("Player").GetComponent<Character>();
+        Character player = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Character>();
         // If there is no player then return false
         if (player == null) return false;
         // If the character is within distance then return true

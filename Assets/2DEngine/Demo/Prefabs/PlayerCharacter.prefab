@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 15910148930007500}
   - component: {fileID: 31118120030032059}
   - component: {fileID: 8529977905363731264}
+  - component: {fileID: 7793127383402113499}
   m_Layer: 3
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -602,6 +603,20 @@ MonoBehaviour:
   excludeLayers:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &7793127383402113499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4184127803029729299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5480bc95376a7394a9d794d6cbc7673e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  deathEffects: {fileID: 0}
 --- !u!1 &4437310811024057550
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +642,7 @@ Transform:
   m_GameObject: {fileID: 4437310811024057550}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.079, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
