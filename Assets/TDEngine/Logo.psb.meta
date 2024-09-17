@@ -94,7 +94,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Rectangle 3
+  - name: Bullet
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -151,8 +151,8 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Rectangle 3
-    spriteName: Rectangle 3
+  - name: Bullet
+    spriteName: Bullet
     isGroup: 0
     parentIndex: -1
     spriteID: e47f00670945ec64eb0ea7c12ae95b0b
@@ -161,16 +161,6 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 1
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: a07470a219831d445b38eea6b9e8dfbe
-    layerID: 2
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
