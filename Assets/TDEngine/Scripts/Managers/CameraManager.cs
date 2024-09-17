@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Managers
 {
-    [AddComponentMenu("2D Engine/Managers/Camera Manager")]
+    [AddComponentMenu("TD Engine/Managers/Camera Manager")]
 
     public class CameraManager : MonoBehaviour
     {

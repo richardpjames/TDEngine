@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters
 {
-    [AddComponentMenu("2D Engine/Characters/Character Animator")]
+    [AddComponentMenu("TD Engine/Characters/Character Animator")]
     public class CharacterAnimator : MonoBehaviour
     {
         // The animator component for the character

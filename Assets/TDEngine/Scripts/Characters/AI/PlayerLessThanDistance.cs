@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters.AI
 {
-    [AddComponentMenu("2D Engine/Characters/AI Conditions/Player Less Than Distance")]
+    [AddComponentMenu("TD Engine/Characters/AI Conditions/Player Less Than Distance")]
 
     public class PlayerLessThanDistance : CharacterAICondition, ICondition
     {

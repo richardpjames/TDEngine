@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 namespace richardpjames.com.TDEngine.Characters
 {
-    [AddComponentMenu("2D Engine/Characters/Player Movement")]
+    [AddComponentMenu("TD Engine/Characters/Player Movement")]
 
     public class PlayerMovement : MonoBehaviour
     {

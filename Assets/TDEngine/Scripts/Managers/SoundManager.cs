@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Managers
 {
-    [AddComponentMenu("2D Engine/Managers/Sound Manager")]
+    [AddComponentMenu("TD Engine/Managers/Sound Manager")]
 
     public class SoundManager : MonoBehaviour
     {

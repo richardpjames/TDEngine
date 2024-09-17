@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Weapons
 {
-    [AddComponentMenu("2D Engine/Weapons/Projectile Weapon")]
+    [AddComponentMenu("TD Engine/Weapons/Projectile Weapon")]
 
     public class ProjectileWeapon : Weapon
     {

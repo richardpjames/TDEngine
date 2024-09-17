@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters
 {
-    [AddComponentMenu("2D Engine/Characters/Character AI")]
+    [AddComponentMenu("TD Engine/Characters/Character AI")]
 
     public class CharacterAI : MonoBehaviour
     {

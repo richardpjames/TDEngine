@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Utilities
 {
-    [AddComponentMenu("2D Engine/Utilities/Look At")]
+    [AddComponentMenu("TD Engine/Utilities/Look At")]
 
 
     public class LookAt : MonoBehaviour

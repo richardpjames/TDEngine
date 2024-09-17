@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Effects
 {
-    [AddComponentMenu("2D Engine/Effects/Effects/Sound")]
+    [AddComponentMenu("TD Engine/Effects/Effects/Sound")]
     public class SoundEffect : Effect
     {
         // Configuration settings for the effect

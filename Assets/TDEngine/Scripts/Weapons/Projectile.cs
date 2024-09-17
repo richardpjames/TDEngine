@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Weapons
 {
-    [AddComponentMenu("2D Engine/Weapons/Projectile")]
+    [AddComponentMenu("TD Engine/Weapons/Projectile")]
 
     public class Projectile : MonoBehaviour
     {

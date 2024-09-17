@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters.AI
 {
-    [AddComponentMenu("2D Engine/Characters/AI Actions/Stop Firing")]
+    [AddComponentMenu("TD Engine/Characters/AI Actions/Stop Firing")]
 
     public class StopFiring : CharacterAIAction, IAction
     {

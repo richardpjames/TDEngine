@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 namespace richardpjames.com.TDEngine.Characters
 {
-    [AddComponentMenu("2D Engine/Characters/Character Movement")]
+    [AddComponentMenu("TD Engine/Characters/Character Movement")]
 
     public class CharacterMovement : MonoBehaviour
     {

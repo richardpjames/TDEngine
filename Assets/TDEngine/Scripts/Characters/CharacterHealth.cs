@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters
 {
-    [AddComponentMenu("2D Engine/Characters/Character Health")]
+    [AddComponentMenu("TD Engine/Characters/Character Health")]
 
     public class CharacterHealth : MonoBehaviour, IDamageable
     {

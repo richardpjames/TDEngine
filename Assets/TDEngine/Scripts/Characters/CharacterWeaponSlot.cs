@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters
 {
-    [AddComponentMenu("2D Engine/Characters/Character Weapon Slot")]
+    [AddComponentMenu("TD Engine/Characters/Character Weapon Slot")]
 
     public class CharacterWeaponSlot : MonoBehaviour
     {

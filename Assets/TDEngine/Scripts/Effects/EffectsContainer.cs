@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Effects
 {
-    [AddComponentMenu("2D Engine/Effects/Effects Container")]
+    [AddComponentMenu("TD Engine/Effects/Effects Container")]
 
     public class EffectsContainer : MonoBehaviour
     {

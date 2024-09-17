@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Managers
 {
-    [AddComponentMenu("2D Engine/Managers/Level Manager")]
+    [AddComponentMenu("TD Engine/Managers/Level Manager")]
 
     public class LevelManager : MonoBehaviour
     {

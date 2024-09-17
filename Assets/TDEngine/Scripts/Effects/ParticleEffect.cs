@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Effects
 {
-    [AddComponentMenu("2D Engine/Effects/Effects/Particles")]
+    [AddComponentMenu("TD Engine/Effects/Effects/Particles")]
     public class ParticleEffect : Effect
     {
         // Configuration settings for the effect

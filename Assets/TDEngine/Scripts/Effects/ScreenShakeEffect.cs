@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Effects
 {
-    [AddComponentMenu("2D Engine/Effects/Effects/Screen Shake")]
+    [AddComponentMenu("TD Engine/Effects/Effects/Screen Shake")]
     public class ScreenShakeEffect : Effect
     {
         // Configuration settings for the effect

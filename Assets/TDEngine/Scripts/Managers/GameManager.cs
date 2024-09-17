@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Managers
 {
-    [AddComponentMenu("2D Engine/Managers/Game Manager")]
+    [AddComponentMenu("TD Engine/Managers/Game Manager")]
 
     public class GameManager : MonoBehaviour
     {

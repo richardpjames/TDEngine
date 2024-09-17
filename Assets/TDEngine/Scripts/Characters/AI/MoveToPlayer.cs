@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters.AI
 {
-    [AddComponentMenu("2D Engine/Characters/AI Actions/Move to Player")]
+    [AddComponentMenu("TD Engine/Characters/AI Actions/Move to Player")]
 
     public class MoveToPlayer : CharacterAIAction, IAction
     {
