@@ -3,7 +3,4 @@ using UnityEditor;
 
 [CustomEditor(typeof(SoundEffect))]
 
-public class SoundEffectInspector : CustomisedInspector
-{
-
-}
+public class SoundEffectInspector : CustomisedInspector { }

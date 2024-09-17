@@ -1,4 +1,5 @@
 using richardpjames.com.TDEngine.Weapons;
+using UnityEditor;
 using UnityEngine;
 
 namespace richardpjames.com.TDEngine.Characters
@@ -19,6 +20,18 @@ namespace richardpjames.com.TDEngine.Characters
             {
                 // Take the default weapon and make it a child of the weapon position
                 equippedWeapon = Instantiate(defaultWeapon, weaponPosition);
+            }
+        }
+
+        public void EquipWeapon(Weapon weapon)
+        {
+            // If a weapon is supplied and is a prefab
+            if(weapon != null)
+            {
+                // If there is already a weapon equipped destroy it
+                equippedWeapon?.Destroy();
+                // Equip the new weapon
+                equippedWeapon = Instantiate(weapon, weaponPosition);
             }
         }
 

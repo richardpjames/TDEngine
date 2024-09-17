@@ -1,18 +1,21 @@
-using richardpjames.com.TDEngine.Characters;
 using UnityEditor;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 public class CustomisedInspector : Editor
 {
-    public VisualTreeAsset m_InspectorXML;
-
     public override VisualElement CreateInspectorGUI()
+    {
+        return AttachCustomUXML(Resources.Load<VisualTreeAsset>(this.GetType().Name));
+    }
+
+    protected VisualElement AttachCustomUXML(VisualTreeAsset uxmlResource)
     {
         // Create a new VisualElement to be the root of our Inspector UI.
         VisualElement myInspector = new VisualElement();
 
         // Load from default reference.
-        m_InspectorXML.CloneTree(myInspector);
+        uxmlResource.CloneTree(myInspector);
 
         // Return the finished Inspector UI.
         return myInspector;

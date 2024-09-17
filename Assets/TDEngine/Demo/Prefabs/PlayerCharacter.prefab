@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 31118120030032059}
   - component: {fileID: 8529977905363731264}
   - component: {fileID: 7793127383402113499}
+  - component: {fileID: 7111594821010780610}
   m_Layer: 3
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -599,7 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a05335f737f2c1847bf355286bb923f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultWeapon: {fileID: 3686880320828620683, guid: 3a9aa0432d42cd540a428f8da84986d1, type: 3}
+  defaultWeapon: {fileID: 0}
   weaponPosition: {fileID: 7295885027759954087}
   excludeLayers:
     serializedVersion: 2
@@ -618,6 +619,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   deathEffects: {fileID: 5902770399057533811, guid: c8d7819b5030c9f43a66687f7815fa09, type: 3}
+--- !u!114 &7111594821010780610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4184127803029729299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4b574f53dd1a149b1da39437d61b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionRadius: 3
+  interactablesLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &4437310811024057550
 GameObject:
   m_ObjectHideFlags: 0

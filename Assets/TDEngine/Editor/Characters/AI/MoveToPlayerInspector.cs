@@ -3,7 +3,4 @@ using UnityEditor;
 
 [CustomEditor(typeof(MoveToPlayer))]
 
-public class MoveToPlayerInspector : CustomisedInspector
-{
-
-}
+public class MoveToPlayerInspector : CustomisedInspector {}

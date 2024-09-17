@@ -3,7 +3,6 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+[CustomEditor(typeof(PlayerInteraction))]
 
-[CustomEditor(typeof(CharacterAnimator))]
-
-public class CharacterAnimatorInspector : CustomisedInspector { }
+public class PlayerInteractionInspector : CustomisedInspector { }

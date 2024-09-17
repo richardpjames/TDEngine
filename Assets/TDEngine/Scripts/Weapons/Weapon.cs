@@ -24,5 +24,10 @@ namespace richardpjames.com.TDEngine.Weapons
             excludeLayers = mask;
         }
 
+        // For destroying weapons
+        public void Destroy()
+        {
+            Destroy(gameObject);
+        }
     }
 }
