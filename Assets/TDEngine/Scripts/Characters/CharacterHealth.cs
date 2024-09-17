@@ -31,6 +31,9 @@ namespace richardpjames.com.TDEngine.Characters
             // Check if the current health is less than zero (leading to death)
             if (currentHealth <= 0)
             {
+                // Drop any loot (if component present)
+                CharacterDrops drops = GetComponent<CharacterDrops>();
+                drops?.Drop();
                 // If this is the player then respawn
                 if (tag == "Player")
                 {

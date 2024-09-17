@@ -369,6 +369,7 @@ GameObject:
   - component: {fileID: 775826082}
   - component: {fileID: 775826081}
   - component: {fileID: 775826083}
+  - component: {fileID: 775826087}
   - component: {fileID: 775826084}
   - component: {fileID: 775826086}
   - component: {fileID: 775826085}
@@ -628,6 +629,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ea93c8aa413640b9b2d5db15b4078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &775826087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775826071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1038b79022f52b44a9a7dc492c5199e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chanceOfDrop: 20
+  drops:
+  - {fileID: 8567876866004566047, guid: 22635b2215154c74282a89f028dd1507, type: 3}
 --- !u!1 &1209767411
 GameObject:
   m_ObjectHideFlags: 0
