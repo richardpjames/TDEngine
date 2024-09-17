@@ -11,6 +11,8 @@ namespace richardpjames.com.TDEngine.Weapons
         [SerializeField] protected GameObject fireEffects;
         void Update()
         {
+            // Make sure sprites are correctly aligned
+            FlipSprites();
             // If the triggere for firing is set, and the cooldown has passed
             if (firing && Time.time >= nextFireTime)
             {

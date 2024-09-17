@@ -24,6 +24,19 @@ namespace richardpjames.com.TDEngine.Weapons
             excludeLayers = mask;
         }
 
+        // Weapons are often rotated, so make sure they appear the right way up if required
+        protected void FlipSprites()
+        {
+            if(transform.rotation.eulerAngles.z > 0 && transform.rotation.eulerAngles.z < 180)
+            {
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
+            else
+            {
+                transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+        }
+
         // For destroying weapons
         public void Destroy()
         {
