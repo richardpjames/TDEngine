@@ -14,10 +14,25 @@ namespace richardpjames.com.TDEngine.Characters
         [SerializeField] protected EffectsContainer deathEffects;
         protected int currentHealth;
         protected bool isQuitting = false;
+        private void Awake()
+        {
+            // Connect to the respawn component if it is present
+            CharacterRespawn respawn = GetComponent<CharacterRespawn>();
+            if (respawn != null)
+            {
+                respawn.OnRespawn += Reset;
+            }
+        }
 
-        private void Start()
+         private void Start()
         {
             // Initialise current health on spawn
+            currentHealth = maxHealth;
+        }
+
+        // Reset the characters health to the maximum
+        public void Reset()
+        {
             currentHealth = maxHealth;
         }
 
@@ -41,8 +56,16 @@ namespace richardpjames.com.TDEngine.Characters
                 }
                 else
                 {
+                    // Check whether the character is able to respawn
+                    CharacterRespawn respawn = GetComponent<CharacterRespawn>();
+                    if (respawn != null)
+                    {
+                        respawn.ReSpawn();
+                    }
+                    else { 
                     // Otherwise destroy the object
                     Destroy(gameObject);
+                    }
                 }
             }
         }
@@ -56,6 +79,12 @@ namespace richardpjames.com.TDEngine.Characters
 
         private void OnDestroy()
         {
+            // Disconnect from the respawn component if it is present
+            CharacterRespawn respawn = GetComponent<CharacterRespawn>();
+            if (respawn != null)
+            {
+                respawn.OnRespawn -= Reset;
+            }
             // Check that the application is not closing and that effects are specified
             if (!isQuitting && deathEffects != null)
             {

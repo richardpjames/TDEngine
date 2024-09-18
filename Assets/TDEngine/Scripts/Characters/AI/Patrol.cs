@@ -11,6 +11,26 @@ namespace richardpjames.com.TDEngine.Characters.AI
         [SerializeField] private float distance;
         [SerializeField] private Transform[] patrolRoute;
         private int currentPatrolPoint = 0;
+
+        private void Awake()
+        {
+            // Connect to the respawn component if it is present
+            CharacterRespawn respawn = GetComponent<CharacterRespawn>();
+            if (respawn != null)
+            {
+                respawn.OnRespawn += Reset;
+            }
+        }
+
+        private void OnDestroy()
+        {
+            // Disconnect from the respawn component if it is present
+            CharacterRespawn respawn = GetComponent<CharacterRespawn>();
+            if (respawn != null)
+            {
+                respawn.OnRespawn -= Reset;
+            }
+        }
         public override void Perform()
         {
             // Get the character movement component and return if not present
@@ -31,6 +51,11 @@ namespace richardpjames.com.TDEngine.Characters.AI
             }
             // Move towards the next patrol point
             characterMovement.MoveTo(patrolRoute[currentPatrolPoint].position);
+        }
+        // On reset, put the patrol point back to the start
+        private void Reset()
+        {
+            currentPatrolPoint = 0;
         }
 
         private void OnDrawGizmosSelected()
